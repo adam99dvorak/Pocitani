@@ -1,1 +1,1 @@
-print("jsem blbeček")
+print("jsem frajer ")
