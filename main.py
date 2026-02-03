@@ -1,14 +1,6 @@
 import math
 
-# Vypočítání objemu krychle
-
-str_krychle = 2 # veličina strany
-objem_krychle = pow(str_krychle, 3) # výpočet pro objem: a na 3
-
-print("Objem krychle je: " + str(objem_krychle)) # vepsání do konzole
-
-
-# Vypočítání obsahu kruh
+# Vypočet obsahu kruh
 
 prumer_kruhu = 5 # průměr kruhu
 zaok_kruhu = 2 # zaokrouhleni na kolik desetinych míst
@@ -18,11 +10,12 @@ print("Obsah kruhu je: " + str(obsah_kruhu) + " a je zaokrouhlený na " + str(za
 # print a je zde i napsáno na kolik desetinnych mist je to zaokrouhleé
 
 
-# Vypočítání obvodu kruhu se stejnými veličinami jako minule
+# Vypočítání obvodu kruhu se stejnými veličinami
 
 obvod_kruhu = round(math.pi * (5 / 2) * 2, zaok_kruhu)
 print("Obvod kruhu je: " + str(obvod_kruhu) + " a je zaokrouhlený na " + str(zaok_kruhu) + " desetinná místa")
 
+# Vypočet objemu krychle
 
 # Výpočet povrchu kvádru
 
@@ -31,7 +24,12 @@ s_kvadr = 1 # veličiny stran
 d_kvadr = 7 # veličiny stran
 povrch_kvadr = 2 * (v_kvadr * s_kvadr + s_kvadr * d_kvadr + d_kvadr * v_kvadr) # vypocet pomocí: 2 * (v * s + s * d + d * v)
 
-print("Povrch kvádru je: " + str(povrch_kvadr)) # a zase výpis do konzole
+print("Povrch kvádru je: " + str(povrch_kvadr)) # a zase výpis do programu
+
+str_krychle = 4 # veličina strany
+objem_krychle = pow(str_krychle, 3) # výpočet pro objem: a na 3
+
+print("Objem krychle je: " + str(objem_krychle)) # výpis do programu
 
 
 # Výpočet 3 strany v trojúhelníku
@@ -39,6 +37,6 @@ print("Povrch kvádru je: " + str(povrch_kvadr)) # a zase výpis do konzole
 a_troju = 6 # strana a
 b_troju = 7 # strana b
 zaok_troju = 4 # zaokrouhlení na kolik desetiných míst
-c_troju = round(math.sqrt(pow(a_troju, 2) + pow(b_troju, 2)), zaok_troju) # vypocitani pomoci: odmocniny a na 2 + b na 2 a zaokrouhleni celeho vypoctu
+c_troju = round(math.sqrt(pow(a_troju, 2) + pow(b_troju, 2)), zaok_troju) # vypocet pomoci: odmocniny a na 2 + b na 2 a zaokrouhleni celeho vypoctu
 
-print("Strana c v trojúhelníku je: " + str(c_troju) + " a je zaokrouhlená na " + str(zaok_troju) + " desetinná místa") # zas print
+print("Strana c v trojúhelníku je: " + str(c_troju) + " a je zaokrouhlená na " + str(zaok_troju) + " desetinná místa") # zase print
