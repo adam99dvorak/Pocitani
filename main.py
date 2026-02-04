@@ -15,7 +15,7 @@ print("Obsah kruhu je: " + str(obsah_kruhu) + " a je zaokrouhlený na " + str(za
 obvod_kruhu = round(math.pi * (prumer_kruhu / 2) * 2, zaokrouhleni_kruhu)
 print("Obvod kruhu je: " + str(obvod_kruhu) + " a je zaokrouhlený na " + str(zaokrouhleni_kruhu) + " desetinná místa")
 
-# Vypočet objemu krychle
+# Vypočet objemu krychl
 
 # Výpočet povrchu kvádru
 
