@@ -2,7 +2,7 @@ import math
 
 # Vypočet obsahu kruh
 
-prumer_kruhu = 4 # průměr kruhu
+prumer_kruhu = 6 # průměr kruhu
 zaokrouhleni_kruhu = 2 # zaokrouhleni na kolik desetinych míst pomocí round
 obsah_kruhu = round(pow((prumer_kruhu / 2), 2) * math.pi, zaokrouhleni_kruhu)# výpočet kruhu pomocí: S = pi * r²
 
@@ -12,7 +12,7 @@ print("Obsah kruhu je: " + str(obsah_kruhu) + " a je zaokrouhlený na " + str(za
 
 # Vypočítání obvodu kruhu se stejnými veličinami
 
-obvod_kruhu = round(math.pi * (4 / 2) * 2, zaokrouhleni_kruhu)
+obvod_kruhu = round(math.pi * (prumer_kruhu / 2) * 2, zaokrouhleni_kruhu)
 print("Obvod kruhu je: " + str(obvod_kruhu) + " a je zaokrouhlený na " + str(zaokrouhleni_kruhu) + " desetinná místa")
 
 # Vypočet objemu krychle
